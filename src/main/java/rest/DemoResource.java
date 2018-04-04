@@ -41,6 +41,6 @@ public class DemoResource {
     @RolesAllowed("admin")
     public String getFromAdmin() {
         String admin = securityContext.getUserPrincipal().getName();
-        return "\"This message if from the server (requires the admin role):Hello from ADMIN"+ admin+"\"";
+        return "\"This message if from the server (requires the admin role):Hello from ADMIN: "+ admin+"\"";
     }
 }

@@ -13,6 +13,7 @@ buildNumber.properties
 
 # NetBeans
 nb-configuration
+src/main/resources/META-INF/
 
 # DATABASE
 persistence.xml
